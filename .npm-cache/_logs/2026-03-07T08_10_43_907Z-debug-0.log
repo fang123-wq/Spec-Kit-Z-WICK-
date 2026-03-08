@@ -1,0 +1,104 @@
+0 verbose cli D:\Program Files\nodejs\node.exe D:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.10.1
+2 info using node@v25.7.0
+3 silly config load:file:D:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Administrator\.npmrc
+5 silly config load:file:C:\Users\Administrator\AppData\Roaming\npm\etc\npmrc
+6 verbose title npm install opencode-ai
+7 verbose argv "install" "--global" "opencode-ai"
+8 verbose logfile logs-max:10 dir:D:\project\教材\.npm-cache\_logs\2026-03-07T08_10_43_907Z-
+9 verbose logfile D:\project\教材\.npm-cache\_logs\2026-03-07T08_10_43_907Z-debug-0.log
+10 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest opencode-ai@*
+15 silly packumentCache full:https://registry.npmjs.org/opencode-ai cache-miss
+16 http cache https://registry.npmjs.org/opencode-ai 27ms (cache hit)
+17 silly packumentCache full:https://registry.npmjs.org/opencode-ai set size:11437688 disposed:false
+18 silly placeDep ROOT opencode-ai@1.2.20 OK for:  want: *
+19 silly fetch manifest opencode-linux-x64@1.2.20
+20 silly packumentCache full:https://registry.npmjs.org/opencode-linux-x64 cache-miss
+21 silly fetch manifest opencode-darwin-x64@1.2.20
+22 silly packumentCache full:https://registry.npmjs.org/opencode-darwin-x64 cache-miss
+23 silly fetch manifest opencode-linux-arm64@1.2.20
+24 silly packumentCache full:https://registry.npmjs.org/opencode-linux-arm64 cache-miss
+25 silly fetch manifest opencode-windows-x64@1.2.20
+26 silly packumentCache full:https://registry.npmjs.org/opencode-windows-x64 cache-miss
+27 silly fetch manifest opencode-darwin-arm64@1.2.20
+28 silly packumentCache full:https://registry.npmjs.org/opencode-darwin-arm64 cache-miss
+29 silly fetch manifest opencode-linux-x64-musl@1.2.20
+30 silly packumentCache full:https://registry.npmjs.org/opencode-linux-x64-musl cache-miss
+31 silly fetch manifest opencode-linux-arm64-musl@1.2.20
+32 silly packumentCache full:https://registry.npmjs.org/opencode-linux-arm64-musl cache-miss
+33 silly fetch manifest opencode-linux-x64-baseline@1.2.20
+34 silly packumentCache full:https://registry.npmjs.org/opencode-linux-x64-baseline cache-miss
+35 silly fetch manifest opencode-darwin-x64-baseline@1.2.20
+36 silly packumentCache full:https://registry.npmjs.org/opencode-darwin-x64-baseline cache-miss
+37 silly fetch manifest opencode-windows-x64-baseline@1.2.20
+38 silly packumentCache full:https://registry.npmjs.org/opencode-windows-x64-baseline cache-miss
+39 silly fetch manifest opencode-linux-x64-baseline-musl@1.2.20
+40 silly packumentCache full:https://registry.npmjs.org/opencode-linux-x64-baseline-musl cache-miss
+41 http cache https://registry.npmjs.org/opencode-linux-x64 34ms (cache hit)
+42 silly packumentCache full:https://registry.npmjs.org/opencode-linux-x64 set size:8433033 disposed:false
+43 http cache https://registry.npmjs.org/opencode-windows-x64 64ms (cache hit)
+44 silly packumentCache full:https://registry.npmjs.org/opencode-windows-x64 set size:8184712 disposed:false
+45 http cache https://registry.npmjs.org/opencode-darwin-x64 95ms (cache hit)
+46 silly packumentCache full:https://registry.npmjs.org/opencode-darwin-x64 set size:8461826 disposed:false
+47 http cache https://registry.npmjs.org/opencode-darwin-arm64 122ms (cache hit)
+48 silly packumentCache full:https://registry.npmjs.org/opencode-darwin-arm64 set size:8543122 disposed:false
+49 http cache https://registry.npmjs.org/opencode-linux-x64-baseline 151ms (cache hit)
+50 silly packumentCache full:https://registry.npmjs.org/opencode-linux-x64-baseline set size:7387408 disposed:false
+51 http cache https://registry.npmjs.org/opencode-linux-x64-musl 184ms (cache hit)
+52 silly packumentCache full:https://registry.npmjs.org/opencode-linux-x64-musl set size:5360586 disposed:false
+53 http cache https://registry.npmjs.org/opencode-darwin-x64-baseline 207ms (cache hit)
+54 silly packumentCache full:https://registry.npmjs.org/opencode-darwin-x64-baseline set size:7137512 disposed:false
+55 http cache https://registry.npmjs.org/opencode-linux-arm64-musl 230ms (cache hit)
+56 silly packumentCache full:https://registry.npmjs.org/opencode-linux-arm64-musl set size:5423886 disposed:false
+57 http cache https://registry.npmjs.org/opencode-linux-arm64 252ms (cache hit)
+58 silly packumentCache full:https://registry.npmjs.org/opencode-linux-arm64 set size:8533461 disposed:false
+59 http cache https://registry.npmjs.org/opencode-linux-x64-baseline-musl 277ms (cache hit)
+60 silly packumentCache full:https://registry.npmjs.org/opencode-linux-x64-baseline-musl set size:5601406 disposed:false
+61 http cache https://registry.npmjs.org/opencode-windows-x64-baseline 295ms (cache hit)
+62 silly packumentCache full:https://registry.npmjs.org/opencode-windows-x64-baseline set size:5510541 disposed:false
+63 silly placeDep node_modules/opencode-ai opencode-darwin-arm64@1.2.20 OK for: opencode-ai@1.2.20 want: 1.2.20
+64 silly placeDep node_modules/opencode-ai opencode-darwin-x64@1.2.20 OK for: opencode-ai@1.2.20 want: 1.2.20
+65 silly placeDep node_modules/opencode-ai opencode-darwin-x64-baseline@1.2.20 OK for: opencode-ai@1.2.20 want: 1.2.20
+66 silly placeDep node_modules/opencode-ai opencode-linux-arm64@1.2.20 OK for: opencode-ai@1.2.20 want: 1.2.20
+67 silly placeDep node_modules/opencode-ai opencode-linux-arm64-musl@1.2.20 OK for: opencode-ai@1.2.20 want: 1.2.20
+68 silly placeDep node_modules/opencode-ai opencode-linux-x64@1.2.20 OK for: opencode-ai@1.2.20 want: 1.2.20
+69 silly placeDep node_modules/opencode-ai opencode-linux-x64-baseline@1.2.20 OK for: opencode-ai@1.2.20 want: 1.2.20
+70 silly placeDep node_modules/opencode-ai opencode-linux-x64-baseline-musl@1.2.20 OK for: opencode-ai@1.2.20 want: 1.2.20
+71 silly placeDep node_modules/opencode-ai opencode-linux-x64-musl@1.2.20 OK for: opencode-ai@1.2.20 want: 1.2.20
+72 silly placeDep node_modules/opencode-ai opencode-windows-x64@1.2.20 OK for: opencode-ai@1.2.20 want: 1.2.20
+73 silly placeDep node_modules/opencode-ai opencode-windows-x64-baseline@1.2.20 OK for: opencode-ai@1.2.20 want: 1.2.20
+74 silly reify mark retired [
+74 silly reify   'C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\opencode-ai',
+74 silly reify   'C:\\Users\\Administrator\\AppData\\Roaming\\npm\\opencode',
+74 silly reify   'C:\\Users\\Administrator\\AppData\\Roaming\\npm\\opencode.cmd',
+74 silly reify   'C:\\Users\\Administrator\\AppData\\Roaming\\npm\\opencode.ps1'
+74 silly reify ]
+75 silly reify moves {
+75 silly reify   'C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\opencode-ai': 'C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\.opencode-ai-uszKqMw2',
+75 silly reify   'C:\\Users\\Administrator\\AppData\\Roaming\\npm\\opencode': 'C:\\Users\\Administrator\\AppData\\Roaming\\npm\\.opencode-Tgc4N15w',
+75 silly reify   'C:\\Users\\Administrator\\AppData\\Roaming\\npm\\opencode.cmd': 'C:\\Users\\Administrator\\AppData\\Roaming\\npm\\.opencode.cmd-WENpW1zh',
+75 silly reify   'C:\\Users\\Administrator\\AppData\\Roaming\\npm\\opencode.ps1': 'C:\\Users\\Administrator\\AppData\\Roaming\\npm\\.opencode.ps1-Iy5q7xPh'
+75 silly reify }
+76 http cache opencode-ai@https://registry.npmjs.org/opencode-ai/-/opencode-ai-1.2.20.tgz 0ms (cache hit)
+77 http cache opencode-windows-x64@https://registry.npmjs.org/opencode-windows-x64/-/opencode-windows-x64-1.2.20.tgz 0ms (cache hit)
+78 http cache opencode-windows-x64-baseline@https://registry.npmjs.org/opencode-windows-x64-baseline/-/opencode-windows-x64-baseline-1.2.20.tgz 0ms (cache hit)
+79 silly tarball no local data for opencode-windows-x64@https://registry.npmjs.org/opencode-windows-x64/-/opencode-windows-x64-1.2.20.tgz. Extracting by manifest.
+80 silly tarball no local data for opencode-windows-x64-baseline@https://registry.npmjs.org/opencode-windows-x64-baseline/-/opencode-windows-x64-baseline-1.2.20.tgz. Extracting by manifest.
+81 http fetch GET 200 https://registry.npmjs.org/opencode-windows-x64-baseline/-/opencode-windows-x64-baseline-1.2.20.tgz 801773ms (cache miss)
+82 http fetch GET 200 https://registry.npmjs.org/opencode-windows-x64/-/opencode-windows-x64-1.2.20.tgz 2402057ms (cache miss)
+83 info run opencode-ai@1.2.20 postinstall node_modules/opencode-ai bun ./postinstall.mjs || node ./postinstall.mjs
+84 info run opencode-ai@1.2.20 postinstall { code: 0, signal: null }
+85 silly CHANGE node_modules/opencode-ai
+86 silly CHANGE node_modules/opencode-ai/node_modules/opencode-windows-x64
+87 silly CHANGE node_modules/opencode-ai/node_modules/opencode-windows-x64-baseline
+88 verbose cwd D:\project\教材
+89 verbose os Windows_NT 10.0.26100
+90 verbose node v25.7.0
+91 verbose npm  v11.10.1
+92 verbose exit 0
+93 info ok
