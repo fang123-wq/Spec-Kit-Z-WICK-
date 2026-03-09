@@ -32,7 +32,7 @@ This fork extends the upstream [github/spec-kit](https://github.com/github/spec-
 - `/speckit.fixbug` — **four-stage sub-agent pipeline** (Locate → Analyze → Fix → Verify) with escalating permissions
 - `/speckit.update` — AI-driven incremental template updates
 - `/speckit.optimize-constitution` — append engineering efficiency principles (module decomposition, chunked write, planning model gate, parallelism-first) to the project constitution
-- 7 specialized sub-agents: `bug-locator`, `bug-analyzer`, `bug-fixer`, `bug-verifier`, `log-analyzer`, `test-runner`, `impact-analyzer`
+- 7 specialized sub-agents: `bug-locator` / `bug-analyzer` / `bug-fixer` / `bug-verifier` / `log-analyzer` / `test-runner` / `impact-analyzer`
 - `coding-worker` agent for dispatching implementation tasks by complexity tier
 
 ## Table of Contents

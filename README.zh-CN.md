@@ -30,7 +30,7 @@
 - `/speckit.fixbug` — **四阶段子代理流水线**（定位 → 分析 → 修复 → 验证），权限逐级提升
 - `/speckit.update` — AI 驱动的增量模板更新
 - `/speckit.optimize-constitution` — 将工程效率原则（模块拆分、分段写入、规划模型约束、任务并行化）增量追加到项目宪法中
-- 7 个专用子代理：`bug-locator`、`bug-analyzer`、`bug-fixer`、`bug-verifier`、`log-analyzer`、`test-runner`、`impact-analyzer`
+- 7 个专用子代理：`bug-locator` / `bug-analyzer` / `bug-fixer` / `bug-verifier` / `log-analyzer` / `test-runner` / `impact-analyzer`
 - `coding-worker` 编码代理，按复杂度分级委派实现任务
 
 ## 目录
